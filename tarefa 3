@@ -1,0 +1,10 @@
+programa
+{
+	
+inteiro tempoEstudando = 100 / 6
+	inteiro tempoLivre = 100 % 6
+	funcao inicio()
+	{
+		escreva("esta pessoa teria ", tempoEstudando, " minutos estudando cada matéria e ", tempoLivre, " minutos de tempo livre")
+	}
+}
