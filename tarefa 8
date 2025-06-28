@@ -1,0 +1,17 @@
+programa
+{
+	
+real tamanho, velocidade, tempo
+	funcao inicio()
+	{
+		escreva("Diga o tamanho de um arquivo para download (em MB) \n")
+		leia(tamanho)
+
+		escreva("Agora diga a velocidade de um Link de Internet (em MBps) \n")
+		leia(velocidade)
+
+		tempo = tamanho / velocidade / 60
+
+		escreva("Isto levará ", tempo, " segundos")
+	}
+}
