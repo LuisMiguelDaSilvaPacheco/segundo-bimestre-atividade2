@@ -1,0 +1,24 @@
+programa
+{
+	
+inteiro tabuaPedacos1, tabuaPedacos2, tabuaPedacos3, tabuaSobra1, tabuaSobra2, tabuaSobra3
+	funcao inicio()
+	{
+	tabuaPedacos1 = 45 / 3
+	tabuaPedacos2 = 45 / 4
+	tabuaPedacos3 = 45 / 5
+	tabuaSobra1 = 45 % 3
+	tabuaSobra2 = 45 % 4
+	tabuaSobra3 = 45 % 5
+
+	se(tabuaSobra1 < tabuaSobra2 e tabuaSobra1 < tabuaSobra3)
+		escreva("Dentre as opções de tábua, a melhor é a primeira, onde são feitos ", tabuaPedacos1, " e sobram ", tabuaSobra1, " pedaços")
+		
+	senao se(tabuaSobra2 < tabuaSobra1 e tabuaSobra2 < tabuaSobra3)
+		escreva("Dentre as opções de tábua, a melhor é a segunda, onde são feitos ", tabuaPedacos2, " e sobram ", tabuaSobra2, " pedaços")
+
+	senao se(tabuaSobra3 < tabuaSobra2 e tabuaSobra3 < tabuaSobra1)
+		escreva("Dentre as opções de tábua, a melhor é a terceira, onde são feitos ", tabuaPedacos3, " e sobram ", tabuaSobra3, " pedaços")
+
+	}
+}
