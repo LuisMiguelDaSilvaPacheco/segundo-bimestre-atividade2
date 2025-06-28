@@ -1,0 +1,10 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+	inteiro tempoLido = (5 * 6 * 4 * 12) / 60       //levando em consideração que um mês tem 4 semanas
+		escreva("Esta pessoa terá lido ", tempoLido, " horas em um ano")
+	}
+}
