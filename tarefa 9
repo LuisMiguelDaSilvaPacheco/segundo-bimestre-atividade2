@@ -1,0 +1,16 @@
+programa
+{
+	
+real area, latas, preco, litros
+	funcao inicio()
+	{
+		escreva("Olá, diga o tamanho de uma área em metros quadrados \n")
+		leia(area)
+
+		litros = area * 3
+		latas = litros / 18
+		preco = latas * 480
+
+		escreva("será necessário comprar ", latas, ", custando um total de R$", preco)
+	}
+}
