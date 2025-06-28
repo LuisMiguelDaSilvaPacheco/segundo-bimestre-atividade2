@@ -1,0 +1,26 @@
+programa
+{
+	
+inteiro horasAno, minutosDecada, segundosIdade, chocolates, milhoesSegundosIdade
+	funcao inicio()
+	{
+	
+	horasAno = 24 * 30 * 12
+	minutosDecada = 60 * 24 * 30 * 12 * 10
+	milhoesSegundosIdade = 977000000 / 12 / 30 / 24 / 60 / 60
+	
+		escreva("Em um ano há ", horasAno, " minutos , e em uma década há ", minutosDecada, " segundos \n")
+
+		escreva("Aproveitando, quantos anos você tem? \n")
+		leia(segundosIdade)
+
+		segundosIdade = segundosIdade * 12 * 30 * 24 * 60
+
+		escreva("Uou, então isso significa que você tem ", segundosIdade, " segundos de idade! \n")
+
+		escreva("Outra pergunta aleatória, quantos chocolates você deseja comer na sua vida? \n")
+		leia(chocolates)
+
+		escreva("inclusive, você sabia que se alguém tem 977 milhões de segundos de vida, ela tem ", milhoesSegundosIdade, " anos de vida?")
+	}
+}
