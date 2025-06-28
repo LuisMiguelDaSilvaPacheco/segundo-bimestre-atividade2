@@ -1,0 +1,15 @@
+programa
+{
+	
+inteiro idade, somaIdade
+	funcao inicio()
+	{
+	
+		escreva("Olá, quantos anos você tem? \n")
+		leia(idade)
+
+		somaIdade = idade * (idade + 1) / 2
+
+		escreva("A soma de todas as suas idades é de ", somaIdade)
+	}
+}
