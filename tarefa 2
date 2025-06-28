@@ -1,0 +1,65 @@
+programa
+{
+	
+real venus, marte, jupiter, urano, netuno, mercurio, mercurioSegundosIdade
+	inteiro idade, planeta, idadeVenus, idadeMercurio
+	
+	funcao inicio()
+	{
+	venus =  0.61519726 * 12 * 30
+	marte = 1.8808158 * 12 * 30
+	jupiter = 11.862615 * 12 * 30
+	urano =  84.016846 * 12 * 30
+	netuno = 164.79132 * 12 * 30
+	mercurio = 0.2408467 * 12 * 30 * 24 * 60 * 60
+	mercurioSegundosIdade = 977000000 / mercurio
+
+	
+		escreva("irei mostrar uma tabela onde mostra quantos dias terrestres cada planeta leva para dar uma volta ao Sol \n")
+		escreva("1 Vênus = ", venus, "\n")
+		escreva("2 Marte = ", marte, "\n")
+		escreva("3 Jupiter = ", jupiter, "\n")
+		escreva("4 Urano = ", urano, "\n")
+		escreva("5 Netuno = ", netuno, "\n")
+		escreva("6 Mercúrio = ", mercurio, "\n")
+
+		escreva("Se você vivesse em Mercúrio, e tivesse 977 milhões de segundos de idade, você teria ", mercurioSegundosIdade, "\n")
+
+		escreva("Agora, me diga sua idade \n")
+		leia(idade)
+		escreva("e o número de um planeta (da tabela) \n")
+		leia(planeta)
+		
+		escolha(planeta){
+			caso 1: 
+				escreva("Nesse planeta, você teria ", idade * 0.61519726, " anos \n")
+				pare
+
+			caso 2: 
+				escreva("Nesse planeta, você teria ", idade * 1.8808158, " anos \n")
+				pare
+
+			caso 3: 
+				escreva("Nesse planeta, você teria ", idade * 11.862615, " anos \n")
+				pare
+
+			caso 4: 
+				escreva("Nesse planeta, você teria ", idade * 84.016846, " anos \n")
+				pare
+
+			caso 5: 
+				escreva("Nesse planeta, você teria ", idade * 164.79132, " anos \n")
+				pare
+
+			caso 6: 
+				escreva("Nesse planeta, você teria ", idade * 0.2408467, " anos \n")
+				pare
+		}
+
+		idadeVenus = idade * 0.61519726
+		idadeMercurio = idade * 0.2408467
+		
+		escreva("Continuando com essa idade, você seria mais novo em Vênus e Mercúrio , tendo respectivamente ", idadeVenus, " e ", idadeMercurio)
+
+	}
+}
