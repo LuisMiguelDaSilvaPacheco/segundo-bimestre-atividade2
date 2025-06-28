@@ -1,0 +1,23 @@
+programa
+{
+
+	funcao inicio()
+	{
+
+	real fioNecessario = (11.5 * 11.5) + (6.3 * 6.3)
+	real L1, L2, diagonal
+	
+		escreva("Com base nas informações, será necessário comprar ", fioNecessario, " metros de fio \n")
+		
+		escreva("Agora, me diga um lado de um retângulo (em metros) \n")
+		leia(L1)
+
+		escreva("Agora, me diga mais um lado do mesmo retângulo (em metros) \n")
+		leia(L2)
+
+		diagonal = (L1 * L1) + (L2 * L2)
+		
+		escreva("A diagonal deste retângulo mede ", diagonal, " metros")
+		
+	}
+}
